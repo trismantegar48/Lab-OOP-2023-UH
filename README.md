@@ -110,11 +110,9 @@ git push origin main
 
 **Pada tahap ini pull request sudah berhasi dibuat**
 
-Note : Selain dengan menggunakan cara diatas, kamu juga bisa drag and drop menggunakan fitur _upload file_
-  
-  <font color="#00ffff" size="5"> Jika ada kendala pada proses mengumpulkan tugas boleh tanyakan pada saat asistensi 😉</font>
+Note : Selain dengan menggunakan cara diatas, kamu juga bisa drag and drop menggunakan fitur upload file ![](https://img.shields.io/badge/Add_file_%E2%96%BE-black.svg)  
+Jika ada kendala pada proses mengumpulkan tugas boleh tanyakan pada saat asistensi 🍵
     
     
-_Your friendly assistant_
-  
+_Your friendly assistant_  
   __Ichsan Takwa__
