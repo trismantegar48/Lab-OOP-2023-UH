@@ -13,7 +13,6 @@ public class Soal4 {
         for (String kata : kalimat.split(" ")) {
             String kataBaru = kata.substring( 0,  1).toUpperCase() + kata.substring( 1).toLowerCase();
             kalimatBaru = kalimatBaru + kataBaru + " "; //+= untuk menambahkan kaimatbaru dan katabaru
-            
         }
         System.out.println(kalimatBaru);
         input.close();
