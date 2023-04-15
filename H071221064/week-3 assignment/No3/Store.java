@@ -150,6 +150,7 @@ public class Store {
             if (productIndex >= 0) {
                 store.tranksaksi(user, productIndex);
             } else {
+                System.exit(0);
                 break;
             }
 
