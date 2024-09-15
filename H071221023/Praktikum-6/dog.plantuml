@@ -1,0 +1,41 @@
+@startuml  
+
+Interface <|-- Dog
+Dog <|-- Pitbull
+Dog <|-- SiberianHusky
+Dog <|-- Bulldog
+Dog <|-- GermanShepherd
+
+class Interface{
+    + move() : void
+}
+
+class Dog{
+    {static} # position : int
+    {static} # averageLength : int
+    + Dog (position : int, averageLength : int)
+    + move() : void
+    + describe() : void
+} 
+class Pitbull{
+    + Pitbull (position : int, averageLength : int)
+    + move() : void
+    + describe() : void
+}
+class SiberianHusky{
+    + SiberianHusky (position : int, averageLength : int)
+    + move() : void
+    + describe() : void
+}
+class Bulldog{
+    + Bulldog (position : int, averageLength : int)
+    + move() : void
+    + describe() : void
+}
+class GermanShepherd{
+    + GermanShepherd (position : int, averageLength : int)
+    + move() : void
+    + describe() : void
+}
+
+@enduml

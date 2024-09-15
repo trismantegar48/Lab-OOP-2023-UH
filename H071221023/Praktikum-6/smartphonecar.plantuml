@@ -1,0 +1,25 @@
+@startuml  
+
+Interface <|-- Smartphone
+Interface <|-- Car
+
+class Interface{
+    + move() : void
+}
+
+class Smartphone{
+    {static} # price : int
+    {static} # brand : String
+    + Smartphone (price : int, brand : String)
+    + move() : void
+}
+
+class Car{
+    {static} # totalForwardGear : int
+    {static} # color : String
+    {static} # maxSpeed : int
+    + Car (totalForwardGear : int, color : String, maxSpeed : int)
+    + move() : void
+}
+
+@enduml

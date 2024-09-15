@@ -58,20 +58,24 @@
 
 - menambahkan direktory atau file tertentu ke index
   
+  command :  _git add \<target\>_
+    
   contoh :
 ```
     git add H071201058//'week-1 assignment'//Nomor8.java
 
 ```
 - menghapus direktory atau file tertentu dari index
-  
+   
+   command :  _git remove \<target\>_
+   
 contoh : 
 ```
     git rm -f H071201058//'week-1 assignment'//Nomor8.java
 
 ```
 - menambahkan seluruh perubahan ke staging area
-command :  _git add \<filename\>_
+
 ```
     git add .
 ```
@@ -106,6 +110,9 @@ git push origin main
 
 **Pada tahap ini pull request sudah berhasi dibuat**
 
-Note : Selain dengan menggunakan cara diatas, kamu juga bisa drag and drop menggunakan fitur _upload file_
-  
-  <font color="#00ffff" size="5"> Jika ada kendala pada proses mengumpulkan tugas boleh tanyakan pada saat asistensi 😉</font>
+Note : Selain dengan menggunakan cara diatas, kamu juga bisa drag and drop menggunakan fitur ![](https://img.shields.io/badge/Add_file_%E2%96%BE-black.svg)  
+Jika ada kendala pada proses mengumpulkan tugas boleh tanyakan pada saat asistensi 🍵
+    
+    
+_Your friendly assistant_  
+  __Ichsan Takwa__
